@@ -1,3 +1,10 @@
+import { Profile } from './profile/Profile';
+import { Statistics } from './statistics/Statistics';
 export const App = () => {
-  return;
+  return (
+    <>
+      <Profile></Profile>
+      <Statistics></Statistics>
+    </>
+  );
 };
