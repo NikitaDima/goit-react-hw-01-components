@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const StatList = ({ label, percentage }) => {
   return (
     <li>
@@ -5,4 +7,9 @@ export const StatList = ({ label, percentage }) => {
       <span>{percentage}%</span>
     </li>
   );
+};
+
+StatList.propTypes = {
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };
