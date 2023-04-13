@@ -1,0 +1,28 @@
+.title {
+  text-align: center;
+  padding: 10px;
+}
+
+.statList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  width: 400px;
+  height: 32px;
+  margin: auto;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.label {
+  padding-right: 5px;
+}
